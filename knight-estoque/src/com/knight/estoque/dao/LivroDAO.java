@@ -51,7 +51,10 @@ public class LivroDAO {
 		retorno.add(livro1);
 		
 		return retorno;
-		
+	}
+	
+	public void criarLivro(Livro livro){
+		this.listarLivros(0, 0).add(livro);
 	}
 
 }
